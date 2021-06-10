@@ -157,9 +157,8 @@ Use the getLastReview function below to do the following:
 */
 
 function getLastReview(array) {
-  return `${(array.length - 1).name} gave the restaurant a ${
-    (array.length - 1).rating
-  } star review, and their feedback was: ${(array.length - 1).feedback}`;
+  const item = array[array.length - 1];
+  return `${item.name} gave the restaurant a ${item.rating} star review, and their feedback was: ${item.feedback}`;
 }
 
 ///////////////🍔☕️🍽 STRETCH🍔☕️🍽////////////////////
