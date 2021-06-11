@@ -201,8 +201,10 @@ Use the getLongReviews function below to do the following:
   ]
 */
 
-function getLongReviews(/* code here */) {
-  /* code here */
+function getLongReviews(arr) {
+  let strNum = arr.split();
+  if (strNum >= 15) newArr.push(srtNum);
+  return newArr;
 }
 
 /* 💪💪💪💪💪💪💪💪💪💪 STRETCH 3: 💪💪💪💪💪💪💪💪💪💪 
