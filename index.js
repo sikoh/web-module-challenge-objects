@@ -177,8 +177,15 @@ Use the getReviewsByRating function below to do the following:
   ]
 */
 
-function getReviewByRating(/* code here */) {
-  /* code here */
+function getReviewByRating(arr, num) {
+  const newArr = [];
+  for (i = 0; i < arr.length; i++) {
+    if (arr[i].rating.includes(num) || arr[i].rating <= num + 1);
+  }
+  newArr.push(arr[i]);
+  {
+    return newArr;
+  }
 }
 
 /* 💪💪💪💪💪💪💪💪💪💪 STRETCH 2: 💪💪💪💪💪💪💪💪💪💪   
